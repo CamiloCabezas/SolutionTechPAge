@@ -1,0 +1,39 @@
+.info{
+    margin-top: 30px;
+    text-align: center;
+}
+.info h3{
+    font-size: 30px;
+}
+
+
+.infoInfo{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.infoInfo h4{
+    font-size: 35px;
+}
+
+.infoInfo a{
+    text-decoration: none;
+    color: rgb(40, 61, 40);
+}
+
+.infoInfo a:hover{
+    color: white;
+}
+
+.contacto-card{
+    border: solid 3px;
+    width: 600px;
+    height: 200px;
+    padding-top: 45px;
+    justify-content: center;
+    align-items: center;
+}

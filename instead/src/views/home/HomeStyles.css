@@ -1,0 +1,202 @@
+html{
+    background-color: black;
+}
+.title-container {
+    background-color: black;
+    width: 1500px;
+    margin: 0 auto; /* Centra horizontalmente */
+    display: flex;
+    flex-direction: column; /* Apila los elementos en columna */
+    align-items: center; /* Centra horizontalmente los elementos */
+    padding: 20px; 
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+
+.titles {
+    color:white;
+    font-size: 70px;
+}
+
+
+
+p{
+    font-size: 40px;
+}
+
+/* .body-a{
+    width: 100%;
+    height: 50vw;
+    background-color: rgb(149, 149, 131);
+    padding: 20px;
+} */
+
+
+.hola{
+    height: 100px;
+}
+.btn{
+    text-align: center;
+}
+
+.my-button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .my-button:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .my-button:active {
+    background-color: rgb(49, 35, 35);
+  }
+/*Carrusel*/
+
+.main-conteiner{
+    width: 1000px; /*Yo cambie el tamaño aca*/
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+img{
+    width: 800px;
+    height: 500px;
+}
+
+.slider-conteiner{
+    position: relative;
+    height: 100%;
+}
+
+.container-images{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: solid 1px #eee;
+    overflow: hidden;
+}
+
+.leftArrow{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 32px;
+    font-size: 80px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.rightArrow{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 32px;
+    font-size: 80px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.dots-container{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.dot-container-item{
+    margin: 8px 3px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+}
+
+div .active{
+    background-color: #ccc;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .main-conteiner{
+        width: 400px; /*Yo cambie el tamaño aca*/
+        height: 300px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    img{
+        width: 400px;
+        height: 300px;
+    }
+
+    
+    .rightArrow{
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        right: 32px;
+        font-size: 30px;
+        font-weight: 700;
+        color: #fff;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    .leftArrow{
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        left: 32px;
+        font-size: 30px;
+        font-weight: 700;
+        color: #fff;
+        z-index: 1;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title-container {
+        background-color: none;
+        width: 400px;
+        margin: 0 auto; /* Centra horizontalmente */
+        display: flex;
+        flex-direction: column; /* Apila los elementos en columna */
+        align-items: center; /* Centra horizontalmente los elementos */
+        padding: 20px; 
+        margin-bottom: 30px;
+        border-radius: 30px;
+    }
+    
+    .titles {
+        color:white;
+        font-size: 40px;
+    }
+
+    .body-a{
+        width: 100%;
+        height: 50vw;
+        background-color:none;
+        padding: 20px;
+    }
+    
+    
+    
+    p{
+        font-size: 20px;
+    }
+
+    
+}
